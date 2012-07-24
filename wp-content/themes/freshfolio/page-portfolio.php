@@ -70,8 +70,4 @@ Template Name: Portfolio
 	</div>
 	<!--/columns -->
 
-<?php get_footer(); ?>class="fix"></div>
-	</div>
-	<!--/columns -->
-
 <?php get_footer(); ?>

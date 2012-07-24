@@ -49,10 +49,3 @@
 
 		</div>
 		<!--/sidebar -->
->		
-                        
-            </div>
-            
-
-		</div>
-		<!--/sidebar -->

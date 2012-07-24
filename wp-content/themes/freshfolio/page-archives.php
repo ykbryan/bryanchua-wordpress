@@ -59,8 +59,4 @@ Template Name: Archives Page
 	</div>
 	<!--/columns -->
 
-<?php get_footer(); ?>></div>
-	</div>
-	<!--/columns -->
-
 <?php get_footer(); ?>

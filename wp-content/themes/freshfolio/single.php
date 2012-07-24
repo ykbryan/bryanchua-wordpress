@@ -76,8 +76,4 @@
 	</div>
 	<!--/columns -->
 
-<?php get_footer(); ?>	<div class="fix"></div>
-	</div>
-	<!--/columns -->
-
 <?php get_footer(); ?>

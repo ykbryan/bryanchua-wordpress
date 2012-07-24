@@ -556,33 +556,4 @@ function displayError($errorString = "") {
 	
 }
 
-?> @file_exists( $path . '/' . $src ) ) {
-			return $path;
-		}
-	}
-	
-	// special check for microsoft servers
-	if(!isset($_SERVER['DOCUMENT_ROOT'])) {
-    	$path = str_replace("/", "\\", $_SERVER["ORIG_PATH_INFO"]);
-    	$path = str_replace($path, "", $_SERVER["SCRIPT_FILENAME"]);
-    	
-    	if( @file_exists( $path . '/' . $src ) ) {
-    		return $path;
-    	}
-	}	
-	
-	displayError("file not found " . $src);
-
-}
-
-/**
- *
- */
-function displayError($errorString = "") {
-
-	header('HTTP/1.1 400 Bad Request');
-	die($errorString);
-	
-}
-
 ?>

@@ -41,5 +41,3 @@
 
 2008.09.01 - version 1.0
   * First release!
-9.01 - version 1.0
-  * First release!

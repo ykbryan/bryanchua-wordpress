@@ -48,7 +48,6 @@
 		<div id="menu">
 			<div id="nav1">
 				<ul>
-                    <li <?php if ( is_home() ) { ?> class="current_page_item" <?php } ?>><a href="<?php echo get_option('home'); ?>/"><span>Home</span></a></li>
                     <?php
 					$pages = wp_list_pages('sort_column=menu_order&title_li=&echo=0&depth=1&exclude='.$GLOBALS['archives_id']);
                     $pages = preg_replace('%<a ([^>]+)>%U','<a $1><span>', $pages);
@@ -62,10 +61,6 @@
         <!--menu-->
 
 		<!-- Featured portfolio item -->
-		<?php include(TEMPLATEPATH . '/includes/featured.php'); ?>
-        
-	</div>
-	<!--/header -->- Featured portfolio item -->
 		<?php include(TEMPLATEPATH . '/includes/featured.php'); ?>
         
 	</div>

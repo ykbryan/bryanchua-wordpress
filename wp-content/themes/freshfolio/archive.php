@@ -55,8 +55,4 @@
 	</div>
 	<!--/columns -->
 
-<?php get_footer(); ?>iv>
-	</div>
-	<!--/columns -->
-
 <?php get_footer(); ?>

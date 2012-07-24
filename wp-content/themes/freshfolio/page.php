@@ -47,7 +47,4 @@
 	</div>
 	<!--/columns -->
 
-<?php get_footer(); ?>div>
-	<!--/columns -->
-
 <?php get_footer(); ?>

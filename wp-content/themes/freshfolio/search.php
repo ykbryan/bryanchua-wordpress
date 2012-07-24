@@ -43,6 +43,3 @@
 	<!--/columns -->
 
 <?php get_footer(); ?>
-	<!--/columns -->
-
-<?php get_footer(); ?>

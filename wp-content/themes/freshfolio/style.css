@@ -83,7 +83,7 @@ li{
 	height: auto;
 	margin: 12px 0 20px;
 	padding: 0 0 25px;
-	width: 175px;
+	width: 250px;
 }
 #logo h2{
 	color: #e6e6e6;
@@ -198,14 +198,14 @@ li{
 /*=== Center Column ===*/
 #centercol{
 	float: left;
-	width: 615px;
+	width: 620px;
 }
 /*=== Right Column ===*/
 #sidebar{
 	float: right;
-	width: 218px;
+	width: 220px;
 	border-left:1px solid #e6e6e6;
-	padding-left:20px;	
+	padding-left:17px;	
 	display:inline;
 }
 /*=== Styling Boxes ===*/
@@ -471,7 +471,7 @@ input#submit {
 	background:#F5F4F0;
 }
 #searchform #s{
-	width:120px;
+	width:160px;
 }
 .gravatar {
 	background:#FFFFFF none repeat scroll 0 0;

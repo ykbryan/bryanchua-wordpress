@@ -215,7 +215,7 @@ li{
 	clear: both;
 	height: 1%;
 	margin: 0 0 14px;
-	padding: 19px;
+	padding: 15px;
 	border: 1px solid #fefefe;
 }
 .box a {
@@ -236,7 +236,7 @@ li{
 	display: block;
 	margin: 0 10px 7px 0;
 	padding: 8px;
-	float:left;
+	
 	display:inline;
 }
 #columns .portfolio .pic img {
@@ -585,6 +585,9 @@ span.tags{
 	font-size: 11px;
 	text-align: right;
 }
+.flickr a {
+  target-new: tab; 
+}
 .box .flickr img{
 	float:left;
 }
@@ -596,7 +599,7 @@ span.tags{
 	clear: both;
 	height: 1%;
 	margin: 0 0 14px;
-	padding: 19px;
+	padding: 10px;
 	border: 1px solid #fefefe;
 }
 
@@ -619,7 +622,7 @@ span.tags{
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
-	width:280px;
+	width:200px;
 }
 
 #sidebar #wp-calendar thead th {

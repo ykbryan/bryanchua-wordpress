@@ -23,7 +23,7 @@
     <!--[if lt IE 7]>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/includes/js/unitpngfix.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory'); ?>/ie6.css" media="screen" />
-   <![endif]--> 
+   <![endif]-->
     
     <?php wp_head(); ?>
 
@@ -41,13 +41,14 @@
 
 		<div id="logo">
             <h1><a href="<?php bloginfo('url'); ?>"><img src="<?php if ( get_option('woo_logo') <> "" ) { echo get_option('woo_logo'); } else { ?><?php bloginfo('template_directory'); ?>/images/logo.png<?php } ?>" alt="<?php bloginfo('name'); ?>" /></a></h1>			
-			<p id="description"><?php bloginfo('description') ?><br /><a href="../" title="Read more...">Back to work &#187;</a></p>
+			<p id="description"><?php bloginfo('description') ?><br /><a href="http://bryanchua.com/" title="Back to my Desk">Back to work &#187;</a></p>
 		</div>
 		<!--/logo-->
 
 		<div id="menu">
 			<div id="nav1">
 				<ul>
+                    <li <?php if ( is_home() ) { ?> class="current_page_item" <?php } ?>><a href="<?php echo get_option('home'); ?>/"><span>Home</span></a></li>
                     <?php
 					$pages = wp_list_pages('sort_column=menu_order&title_li=&echo=0&depth=1&exclude='.$GLOBALS['archives_id']);
                     $pages = preg_replace('%<a ([^>]+)>%U','<a $1><span>', $pages);
